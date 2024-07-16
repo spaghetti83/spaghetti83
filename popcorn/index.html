@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Popcorn</title>
+
+</head>
+
+
+<body>
+
+    <div id="nav-bar">
+        <div id="popcorn-logo">POPCORN</div>
+        <!-- HERE ALL THE NAVIGATION BAR -->
+        <div id="links-container">
+            <div id="menu-container">
+                <div id="home-link"><a href="#">Home</a></div>
+                <div><a href="#" id="tv-shows">Serie TV</a></div>
+                <div id="movies"><a href="#" id="movies">Film</a></div>
+                <div><a href="#">Nuovi e popolari</a></div>
+                <div><a href="#">La mia Lista</a></div>
+            </div>
+            
+            <select name="lists" id="list-selection" >
+                <option id="home-sel" class="dd-line" value="home">Home</optiion>
+                <option id="movies-sel" class="dd-line" value="movies">Film</optiion>
+                <option id="tv-shows-sel" class="dd-line" value="tv-shows">Serie TV</optiion>
+            </select>
+        </div>
+
+        <div id="tools-bar">
+
+        </div>
+
+
+    </div>
+    <!-- NAVIGATIONA BAR ENDS HERE -->
+
+    <main id="main-container">
+        <div id="current-list-title-container"><h1 id="current-list-title">Ciao</h1></div>
+
+        <div id="background-preview"><!-- HERE GOES THE VIDEO PREVIEW (3 MOVIES) --></div>
+        <div id="main-video-gallary">
+            <!-- here go the movie and series galleries -->
+        </div>
+        <!-- TILE TEMPLATE -->
+        <div id="gallery">
+            <div id="tile-template">
+
+            </div>
+
+        </div>
+
+    </main>
+    <!-- END TILE TEMPLATE -->
+
+    <div id="btn-list-container">
+        <button id="more-btn">Load more...</button>
+    </div>
+    <div id="details-container" style="display: none;">
+      
+        
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
